@@ -16,7 +16,7 @@ public class Singleton03 {
     }
 
     public static Singleton03 getInstance() {
-        return Singleton.instance;
+        return Singleton.instance;//创建单例
     }
 
     public static void createString() {
@@ -26,7 +26,7 @@ public class Singleton03 {
 
 class Test03 {
     public static void main(String[] args) {
-        //Singleton03.getInstance();
-        Singleton03.createString();
+        Singleton03.getInstance();//得到单例
+        //Singleton03.createString();
     }
 }
