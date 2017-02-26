@@ -7,7 +7,7 @@ package demo;
  * Created by Jims on 2017/2/24.
  */
 public class Singleton02 {
-    public Singleton02() {
+    private Singleton02() {
         System.out.println("Singleton02 is create");
     }
 

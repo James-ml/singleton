@@ -7,7 +7,7 @@ package demo;
  */
 public class Singleton01 {
     //Singleton01的对象
-    public Singleton01() {
+    private Singleton01() {
         System.out.println("Singleton01 is create");
     }
 
@@ -24,7 +24,7 @@ public class Singleton01 {
 
 class Test{
     public static void main(String[] args) {
-        //Singleton01.getInstance().createString();
-        Singleton01.createString();//这种方式没有使用单例类
+        Singleton01.getInstance().createString();
+        //Singleton01.createString();//这种方式没有使用单例类
     }
 }
