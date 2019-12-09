@@ -22,7 +22,7 @@ public class Singleton01 {
     }
 }
 
-class Test{
+class Test {
     public static void main(String[] args) {
         Singleton01.getInstance().createString();
         //Singleton01.createString();//这种方式没有使用单例类
